@@ -1,0 +1,20 @@
+package me.ele.panda;
+
+import me.ele.panda.bean.PandaConfig;
+
+public interface ITestPandaService {
+
+    /**
+     * 出生
+     */
+    public PandaConfig birth(PandaConfig config);
+
+    /**
+     * 上学
+     */
+    public void school(int age);
+
+    public void work();
+
+    public void wedding();
+}
